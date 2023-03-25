@@ -7,9 +7,9 @@
 React Portfolio
 
 ## Table of Contents
-  - [Title](#title)
+- [React Portfolio](#react-portfolio)
   - [Badge](#badge)
-  - [Title](#title-1)
+  - [Title](#title)
   - [Table of Contents](#table-of-contents)
   - [User Story](#user-story)
   - [Description](#description)
@@ -78,9 +78,9 @@ The following image shows the web application's appearance:
 [MIT License](LICENSE)
 
 ## Link
-[Github](https://github.com/minhkhoinguy/React-Portfolio)
+[Github](https://github.com/minhkhoinguy/newPortpolio)
 
-[Deploy](https://mkn-portpolio.herokuapp.com/)
+[Deploy](https://newportfolio98.herokuapp.com/)
 
 ## Contact
 Contact me with the link below if you have any questions!
