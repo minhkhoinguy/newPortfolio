@@ -1,0 +1,108 @@
+.ResumePage {
+    background: url(../assets/bg3.jpg) center/cover;
+    height:90vh;
+    color: aliceblue;
+}
+
+.downloadResume{
+    text-align: center;
+    margin: 40px 0 40px 0;
+}
+.ResumeBtn{
+    color: aliceblue;
+    background: transparent;
+    border-radius: 5px;
+}
+.mySkills{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ResumeRole{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 1px 1px darkorange;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.skills{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+@media screen and (max-width: 820px){
+    .ResumePage {
+        height:90vh;
+    }
+    .mySkills{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ResumeRole{
+        font-size: 40px;
+        font-family: 'Pacifico', cursive;
+        text-shadow: 1px 1px darkorange;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    .skills{
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        margin: 5px 40px 5px 40px;
+        
+    }
+}
+
+@media screen and (max-width: 480px){
+    .ResumePage {
+        height:90vh;
+    }
+    .mySkills{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ResumeRole{
+        font-size: 30px;
+        font-family: 'Pacifico', cursive;
+        text-shadow: 1px 1px darkorange;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    .skills{
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        margin: 5px 20px 5px 20px;
+        
+    }
+}
+
+@media screen and (max-width: 380px){
+    .ResumePage {
+        height:110vh;
+    }
+    .mySkills{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ResumeRole{
+        font-size: 30px;
+        font-family: 'Pacifico', cursive;
+        text-shadow: 1px 1px darkorange;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    .skills{
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        margin: 5px 20px 5px 20px;
+        
+    }
+}

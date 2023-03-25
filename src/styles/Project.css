@@ -1,0 +1,75 @@
+#myProject {
+    background: url(../assets/bg13.jpg) center/cover;
+    height:90vh;
+}
+.project{
+    display: flex;
+    justify-content: space-around;
+}
+
+.screenshot {
+    max-width: 500px;
+    max-height:250px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px 0 10px 0;
+}
+
+.myproject a {
+    color: black;
+    text-decoration: none;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.8);
+    font-family: 'Pacifico', cursive;
+}
+.myproject a:hover{
+    text-shadow: 2px 2px darkorange;
+    color: black;
+}
+
+@media screen and (max-width: 1300px){
+    #myProject{
+        text-align: center;
+        height: 80vh;
+    }
+    .project{
+        display: flex;
+        justify-content: space-around;
+    }
+    .screenshot {
+        max-width: 300px;
+        max-height:150px;
+        margin: 10px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 820px){
+    #myProject{
+        text-align: center;
+        height: 155vh;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+    .screenshot {
+        max-width: 400px;
+        max-height:200px;
+        margin: 10px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #myProject{
+        text-align: center;
+        height: 150vh;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+    .screenshot {
+        max-width: 300px;
+        max-height:150px;
+        margin: 10px 0 10px 0;
+    }
+
+}

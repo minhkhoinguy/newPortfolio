@@ -1,0 +1,44 @@
+.AboutPage{
+    background: url(../assets/bg4.jpg) center/cover;
+    height:90vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.AboutTitle{
+    color: darkorange;
+    font-size: 50px;
+    margin: 40px;
+}
+.AboutP{
+    font-size: 30px;
+    color: grey;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+@media screen and (max-width: 1110px){
+    .AboutP{
+        font-size: 25px;
+        margin: 0px 30px 0 30px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .AboutP{
+        margin: 0px 30px 0 30px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .AboutP{
+        font-size: 20px;
+        margin: 0px 20px 0 20px;
+    }
+}

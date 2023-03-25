@@ -1,0 +1,22 @@
+.contact{
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    background: url(../assets/bg15.jpeg) center;
+
+}
+.fa {
+    color: wheat ;
+    margin: 0 10px 0 10px;
+    border-radius: 4px;
+    box-shadow: 3px 3px black;
+}
+
+.fa:hover{
+    transform: scale(1.5);
+    transition: 1;
+    color: darkorange;
+    box-shadow: 3px 3px black;
+}
